@@ -9,8 +9,13 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
 
-  <body id='content'>
-    <div>
+  <body>
+    <nav>
+      <li>
+        <a href="#">M</a>
+      </li>
+    </nav>
+    <div id="content">
       <%= yield %>
     </div>
 
